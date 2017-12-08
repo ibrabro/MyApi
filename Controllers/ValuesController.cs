@@ -25,8 +25,9 @@ namespace MyApi.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public string Post([FromBody]string value)
         {
+            return "b2c2decb";
         }
 
         // PUT api/values/5
